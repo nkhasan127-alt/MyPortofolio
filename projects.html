@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Proyek | Nur Khasan</title>
+    <link rel="icon" href="assets/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header"><a class="logo" href="index.html"><b>N<span>.</span></b> nur<span>khasan</span></a><button
+            class="menu" aria-label="Menu">☰</button>
+        <nav><a href="index.html">Beranda</a><a href="about.html">Tentang</a><a class="active"
+                href="projects.html">Proyek</a><a href="contact.html">Kontak</a></nav><button class="theme"
+            aria-label="Ganti tema">☼</button>
+    </header>
+    <main class="wrap page">
+        <header class="page-title"><label class="eyebrow">MY WORK / SELECTED PROJECTS</label>
+            <h1>Ide yang saya<br><span>wujudkan.</span></h1>
+            <p>Proyek latihan, prototipe, dan konsep pengembangan sebagai bagian dari proses belajar.</p>
+        </header>
+        <div class="filters" id="filters"><button class="active" data-filter="all">Semua</button><button
+                data-filter="web">Website</button><button data-filter="app">Aplikasi</button><button
+                data-filter="learn">Pembelajaran</button></div>
+        <section class="projects">
+            <article class="project" id="digilibrary" data-type="web">
+                <div class="project-art a1"><b>01 / WEB</b><span>▤</span><small>DIGILIBRARY</small></div>
+                <div class="project-body"><label>HTML · CSS · JAVASCRIPT</label>
+                    <h2>DigiLibrary</h2>
+                    <p>Konsep perpustakaan digital dengan katalog buku, pencarian, filter kategori, detail buku, dan
+                        bookmark lokal.</p><button data-detail="digilibrary">Detail proyek ↗</button>
+                </div>
+            </article>
+            <article class="project" id="edusmart" data-type="learn">
+                <div class="project-art a2"><b>02 / LEARNING</b><span>✳</span><small>LEARN SMARTER</small></div>
+                <div class="project-body"><label>HTML · CSS · JAVASCRIPT</label>
+                    <h2>EduSmart</h2>
+                    <p>Konsep platform pembelajaran digital untuk menampilkan materi, latihan, dan kuis interaktif.</p>
+                    <button data-detail="edusmart">Detail proyek ↗</button>
+                </div>
+            </article>
+            <article class="project" id="visitor" data-type="app">
+                <div class="project-art a3"><b>03 / APPLICATION</b><span>▣</span><small>VISITOR SYSTEM</small></div>
+                <div class="project-body"><label>GOOGLE APPS SCRIPT · SHEETS</label>
+                    <h2>Visitor Registration</h2>
+                    <p>Prototipe pendaftaran pengunjung berbasis web dengan formulir bertahap dan pencatatan Google
+                        Spreadsheet.</p><button data-detail="visitor">Detail proyek ↗</button>
+                </div>
+            </article>
+            <article class="project" id="siapcheck" data-type="app">
+                <div class="project-art a4"><b>04 / APPLICATION</b><span>✓</span><small>CHECKLIST SYSTEM</small></div>
+                <div class="project-body"><label>GOOGLE APPS SCRIPT · SPREADSHEET</label>
+                    <h2>SiapCheck GA</h2>
+                    <p>Konsep aplikasi checklist untuk mencatat aktivitas dan status pemeriksaan area, dengan bagian
+                        taman dan driver.</p><button data-detail="siapcheck">Detail proyek ↗</button>
+                </div>
+            </article>
+            <article class="project" id="servicedesk" data-type="web">
+                <div class="project-art a5"><b>05 / WEB</b><span>⌘</span><small>IT SERVICE DESK</small></div>
+                <div class="project-body"><label>WEB DESIGN · UI/UX</label>
+                    <h2>IT ServiceDesk</h2>
+                    <p>Perancangan konsep layanan informasi IT untuk membantu pengguna menemukan panduan dan informasi
+                        penanganan kendala.</p><button data-detail="servicedesk">Detail proyek ↗</button>
+                </div>
+            </article>
+        </section>
+        <p class="muted note">Status proyek ditulis secara jelas. Daftar ini mencakup proyek pembelajaran, prototipe,
+            dan konsep; bukan klaim bahwa semuanya sudah dipublikasikan.</p>
+    </main>
+    <div class="modal hidden" id="modal" role="dialog" aria-modal="true">
+        <div class="modal-box"><button id="close" class="close" aria-label="Tutup">×</button><label
+                class="eyebrow">PROJECT OVERVIEW</label>
+            <h2 id="modalTitle"></h2>
+            <p id="modalText"></p>
+            <div id="modalTags" class="tags"></div>
+        </div>
+    </div>
+    <footer class="footer wrap"><a class="logo" href="index.html"><b>N<span>.</span></b>
+            nur<span>khasan</span></a><small>© 2026 Nur Khasan · Personal Portfolio</small><a
+            href="contact.html">Hubungi saya ↗</a></footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
