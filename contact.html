@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Kontak | Nur Khasan</title>
+    <link rel="icon" href="assets/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header"><a class="logo" href="index.html"><b>N<span>.</span></b> nur<span>khasan</span></a><button
+            class="menu" aria-label="Menu">☰</button>
+        <nav><a href="index.html">Beranda</a><a href="about.html">Tentang</a><a href="projects.html">Proyek</a><a
+                class="active" href="contact.html">Kontak</a></nav><button class="theme"
+            aria-label="Ganti tema">☼</button>
+    </header>
+    <main class="wrap page">
+        <header class="page-title"><label class="eyebrow">LET'S CONNECT</label>
+            <h1>Punya ide atau<br><span>ingin berdiskusi?</span></h1>
+            <p>Silakan lengkapi informasi kontak sebelum website dipublikasikan.</p>
+        </header>
+        <section class="contact-grid">
+            <div class="contact-cards">
+                <article><b>✉ EMAIL</b>
+                    <h3>Tambahkan alamat email</h3>
+                    <p>Ganti teks ini dengan email yang memang ingin dipublikasikan.</p>
+                </article>
+                <article><b>⌖ LOKASI</b>
+                    <h3>Tuban, Jawa Timur</h3>
+                    <p>Indonesia</p>
+                </article>
+                <article><b>⌘ PROFIL PROFESIONAL</b>
+                    <h3>Tambahkan GitHub / LinkedIn</h3>
+                    <p>Masukkan tautan profil milikmu.</p>
+                </article>
+                <p class="availability">● Terbuka untuk belajar dan kolaborasi proyek pembelajaran.</p>
+            </div>
+            <form class="form glass" id="contactForm" novalidate><label class="eyebrow">SEND A MESSAGE</label>
+                <h2>Kirim pesan.</h2><label>Nama<input id="name" required minlength="2"
+                        placeholder="Nama kamu"></label><label>Email<input id="email" type="email" required
+                        placeholder="nama@email.com"></label><label>Topik<select id="topic" required>
+                        <option value="">Pilih topik</option>
+                        <option>Diskusi proyek</option>
+                        <option>Kolaborasi belajar</option>
+                        <option>Pertanyaan umum</option>
+                    </select></label><label>Pesan<textarea id="message" rows="5" required minlength="10"
+                        placeholder="Tuliskan pesan kamu..."></textarea></label><button class="btn primary"
+                    type="submit">Validasi pesan →</button>
+                <p id="feedback" class="feedback">Demo validasi browser; pesan belum dikirim ke email/server.</p>
+            </form>
+        </section>
+    </main>
+    <footer class="footer wrap"><a class="logo" href="index.html"><b>N<span>.</span></b>
+            nur<span>khasan</span></a><small>© 2026 Nur Khasan · Personal Portfolio</small><a href="projects.html">Lihat
+            proyek ↗</a></footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
